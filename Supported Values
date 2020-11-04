@@ -1,0 +1,9 @@
+Supported values
+#Value types
+Motion can animate:
+
+Numbers: 0, 10 etc.
+Strings containing numbers: "0vh", "10px" etc.
+Colors: Hex, RGB(A), HSL(A).
+Complex strings containing multiple numbers and/or colors (ie "10px 0 #000")
+When animating to a non-animatable value like "block", this value will be set instantly. By setting this value within transitionEnd, this value will be set at the end of the animation.
